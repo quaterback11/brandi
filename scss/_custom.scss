@@ -1,0 +1,18 @@
+@import "variables";
+$dark: $gableGreen;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+  xxl: 1320px,
+) !default;
+
+$font-family-base: "Oswald", sans-serif;
+$font-weight-base: 300;
+$font-size-base: 0.875rem;
+$line-height-base: 1.714;
+$h1-font-size: 2rem;
+
+$yellow: $yellowBtn;

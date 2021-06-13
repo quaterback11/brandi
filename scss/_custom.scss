@@ -9,10 +9,28 @@ $container-max-widths: (
   xxl: 1320px,
 ) !default;
 
-$font-family-base: "Oswald", sans-serif;
+$font-family-base: "Open Sans", sans-serif;
 $font-weight-base: 300;
 $font-size-base: 0.875rem;
 $line-height-base: 1.714;
 $h1-font-size: 2rem;
 
 $yellow: $yellowBtn;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+) !default;
+
+$white: #fff !default;
+$gray-600: #6c757d !default;
+$nav-link-color: null !default;
+$nav-link-disabled-color: $white !default;
+
+$font-size-base: 1rem !default;
+$h1-font-size: $font-size-base * 3.875 !default;
